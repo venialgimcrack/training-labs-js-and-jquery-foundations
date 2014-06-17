@@ -14,19 +14,19 @@ lesson.selectors = {
 	exercise_1: function () {
 		// Select the header element from the test page
 
-		return ;
+		return $("head");
 	},
 
 	exercise_2: function () {
 		// Select the first tweet on the page
 
-		return ;
+		return $("#tweets > li.tweet:first-child");
 	},
 
 	exercise_3: function () {
 		// Select the last tweet on the page
 
-		return ;
+		return $("#tweets > li.tweet:last-child");;
 	},
 
 	exercise_4: function () {
